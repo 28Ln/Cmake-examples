@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main() {
+    char* some_env_var = std::getenv("SOME_VARIABLE");
+    std::cout << "SOME_VARIABLE=" << (some_env_var ? some_env_var : "") << std::endl;
+    char* another_env_var = std::getenv("ANOTHER_VARIABLE");
+    std::cout << "ANOTHER_VARIABLE=" << (another_env_var ? another_env_var : "") << std::endl;
+    return 0;
+}

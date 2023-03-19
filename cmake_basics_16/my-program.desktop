@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=my-program
+Comment=My Program Description
+Exec=my-program
+Icon=my-program
+Terminal=false
+Type=Application
+Categories=Utility;
